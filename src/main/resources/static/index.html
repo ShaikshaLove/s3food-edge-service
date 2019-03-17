@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html ng-app="foodapp">
+<head>
+<meta charset="ISO-8859-1">
+<title>S3food</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/vendor/angular.js"></script>
+<script type="text/javascript" src="./js/vendor/angular-route.js"></script>
+<script type="text/javascript" src="./js/app/app.js"></script>
+
+<script type="text/javascript" src="./js/app/home/home.module.js"></script>
+<script type="text/javascript"
+	src="./js/app/home/service/home.service.js"></script>
+<script type="text/javascript"
+	src="./js/app/home/controller/home.controller.js"></script>
+
+
+
+<script type="text/javascript" src="./js/app/product/product.module.js"></script>
+<script type="text/javascript"
+	src="./js/app/product/service/product.service.js"></script>
+<script type="text/javascript"
+	src="./js/app/product/controller/product-list.controller.js"></script>
+<script type="text/javascript"
+	src="./js/app/product/controller/product-register.controller.js"></script>
+
+<script type="text/javascript"
+	src="./js/app/product/controller/product-manipulation.controller.js"></script>
+
+<script type="text/javascript"
+	src="./js/app/product/directives/formdata.js"></script>
+
+
+
+<script type="text/javascript" src="./js/app/navbar/navbar.module.js"></script>
+<script type="text/javascript"
+	src="./js/app/navbar/service/navbar.service.js"></script>
+<script type="text/javascript"
+	src="./js/app/navbar/controller/navbar.controller.js"></script>
+
+
+<script type="text/javascript"
+	src="./js/app/user/user.module.js"></script>
+<script type="text/javascript"
+	src="./js/app/user/service/user.service.js"></script>
+<script type="text/javascript"
+	src="./js/app/user/controller/user-list.controller.js"></script>
+
+<link rel="sty lesheet" href="./css/album.css" />
+<link rel="stylesheet" href="./css/carousel.css" />
+<link rel="stylesheet" href="./css/loader.css" />
+</head>
+<body ng-controller="navController">
+
+	<header>
+		<nav style="color: purple;"
+			class="navbar navbar-expand-md navbar-dark fixed-top bg-danger">
+			<a class="navbar-brand" href="#"
+				style="font-style: inherit; font-family: Verdana, Geneva, Tahoma, sans-serif">S3food<font
+				size="1px" class="text-warning"> {{navbar.user.firstName}}</font>
+			</a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#navbarCollapse" aria-controls="navbarCollapse"
+				aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav mr-auto">
+					<li class="nav-item" ng-repeat="navlink in navbar.navLinks"><a
+						class="nav-link active" href="{{navlink.urlPattern}}"> <small>{{navlink.linkName}}</small>
+					</a></li>
+				</ul>
+			</div>
+		</nav>
+		<!-- Fixed footer -->
+		<nav style="background-color: black"
+			class="navbar navbar-dark  fixed-bottom">
+			<small class="text-muted"> @2019-S3food.in, Contrived by
+				shaiksha</small>
+		</nav>
+	</header>
+
+
+
+	<div ng-view=""></div>
+</body>
+</html>
