@@ -24,27 +24,27 @@
 
 
 	<header>
-		<nav style="background-color: purple;" class="navbar navbar-expand-md navbar-dark fixed-top">
+		<nav style="background-color: #1C1514;" class="navbar navbar-expand-md  navbar-dark fixed-top">
 		<!--	<a class="navbar-brand" href="#"
 				style="font-style: inherit; font-family: Verdana, Geneva, Tahoma, sans-serif">S3food
 			</a><img src="./images/run.gif" alt="Logo" style="width:60px;">-->
 			
 			 <a class="navbar-brand text-center" href="#">
-               <img src="./images/logo5.jpg" alt="Logo" style="width:130px;">
+               <img src="./images/logo5.jpg" alt="Logo" style="width:170px;height:60px;">
              </a>
-			<marquee> <h6 style="color:cyan;">S3food-Tadipatri welcomes you</h6></marquee>
+			<marquee> <h6 style="color:red;">S3food-Tadipatri welcomes you</h6></marquee>
 		</nav>
 	</header>
 
-	<nav style="background-color: black" class="navbar navbar-expand-sm  navbar-dark fixed-bottom">
-		<small class="text-muted">@2019-S3food.in, Contrived by shaiksha</small>
+	<nav  style="background-color: #1C1514;" class="navbar navbar-expand-sm  navbar-dark fixed-bottom">
+		<small class="text-light">@2019-S3food.in, Contrived  by shaiksha</small>
 	</nav>
 
 
-<div style="margin-top: 70px" class="container">
+<div style="margin-top: 100px" class="container">
 
 		<form class="form-signin" method="post" action="perform-login">
-			<h2 class="form-signin-heading text-center">Please Sign in</h2>
+			<h4 class="form-signin-heading text-center">Please Sign in</h4>
 			<p>
 				<label for="username" class="sr-only">Username</label> <input
 					type="text" id="username" name="username" class="form-control"

@@ -9,7 +9,7 @@ public class NavbarUtil {
 			
 		al.add(new NavLink("Home", "/#/home"));
 		al.add(new NavLink("Sell A Product", "/#/product-register"));
-		al.add(new NavLink("All Product Details", "/#/product-manipulation"));
+		al.add(new NavLink("S3food Product Details", "/#/product-manipulation"));
 		al.add(new NavLink("S3food User Details", "/#/user-data"));
 		al.add(new NavLink("Logout", "/perform-logout"));
 		
@@ -23,8 +23,6 @@ public class NavbarUtil {
 		al.add(new NavLink("Breakfast", "/#/products"));
 		al.add(new NavLink("lunch", "/#/MyCart"));
 		al.add(new NavLink("Snacks", "/#/products"));
-		al.add(new NavLink("Softdrinks", "/#/MyCart"));
-		al.add(new NavLink("Sweets", "/#/MyCart"));
 		al.add(new NavLink("Logout", "/perform-logout"));
 		return al;
 	}

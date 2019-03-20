@@ -36,21 +36,21 @@
 
 
 	<header>
-		<nav style="background-color:purple;" class="navbar navbar-expand-md navbar-dark fixed-top">
+		<nav  style="background-color: #1C1514;"  class="navbar navbar-expand-md navbar-dark fixed-top">
 		<!--	<a class="navbar-brand" href="#"
 				style="font-style: inherit; font-family: Verdana, Geneva, Tahoma, sans-serif">S3food
 			</a><img src="./images/run.gif" alt="Logo" style="width:60px;">-->
 			
 			 <a class="navbar-brand text-center" href="#">
-               <img src="./images/logo5.jpg" alt="Logo" style="width:130px;">
+               <img src="./images/logo5.jpg" alt="Logo" style="width:130px;height:50px;">
              </a>
-			<marquee> <h6 style="color:cyan;">S3food-Tadipatri welcomes you</h6></marquee>
+			<!--<marquee> <h6 style="color:cyan;">S3food-Tadipatri welcomes you</h6></marquee>-->
 		</nav>
 	</header>
 
 
-	<nav style="background-color: black" class="navbar navbar-expand-sm  navbar-dark fixed-bottom">
-		<small class="text-muted">@S3food.in, Contrived and
+	<nav  style="background-color: #1C1514;"  class="navbar navbar-expand-sm  navbar-dark fixed-bottom">
+		<small class="text-light">@S3food.in, Contrived and
 			originated by shaiksha</small>
 	</nav>
 
@@ -58,7 +58,7 @@
 
 
 
-<div style="margin-top:50px" class="container">
+<div style="margin-top:25px" class="container">
     
     <div style="margin-top:120px" ng-show="showMessage">
 	       <div class="alert alert-info >
@@ -72,7 +72,7 @@
 	 </div>
 
 		<form ng-hide="showMessage" class="form-signin">
-			<h2 class="form-signin-heading text-center text-muted">Sign Up</h2>
+			<h4 class="form-signin-heading text-center text-muted">Sign Up</h4>
 			<p>
 				<label for="firstname" class="sr-only">First Name</label> <input
 					type="text" id="firstname" name="firstName" class="form-control"
@@ -108,7 +108,7 @@
 					
 			</p>
 			<button ng-show="flag" ng-click="reg();" class="btn btn-md
-			 btn-success btn-block" type="submit">Register</button>
+			 btn-danger btn-block" type="submit">Register</button>
 			 
 			 
 			 <button ng-hide="flag" class="btn btn-warning btn-block" type="button" disabled>
