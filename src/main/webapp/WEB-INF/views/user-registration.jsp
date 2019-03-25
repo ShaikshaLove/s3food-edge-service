@@ -42,7 +42,7 @@
 			</a><img src="./images/run.gif" alt="Logo" style="width:60px;">-->
 			
 			 <a class="navbar-brand text-center" href="#">
-               <img src="./images/logo.jpg" alt="Logo" style="width:130px;height:50px;">
+               <img src="./images/logo2.jpg" alt="Logo" style="width:130px;height:50px;">
              </a>
 			<!--<marquee> <h6 style="color:cyan;">S3food-Tadipatri welcomes you</h6></marquee>-->
 		</nav>
