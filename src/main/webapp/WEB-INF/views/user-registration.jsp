@@ -36,13 +36,13 @@
 
 
 	<header>
-		<nav  style="background-color: #1C1514;"  class="navbar navbar-expand-md navbar-dark fixed-top">
+		<nav  style="background-color: white;"  class="navbar navbar-expand-md navbar-dark fixed-top">
 		<!--	<a class="navbar-brand" href="#"
 				style="font-style: inherit; font-family: Verdana, Geneva, Tahoma, sans-serif">S3food
 			</a><img src="./images/run.gif" alt="Logo" style="width:60px;">-->
 			
 			 <a class="navbar-brand text-center" href="#">
-               <img src="./images/logo5.jpg" alt="Logo" style="width:130px;height:50px;">
+               <img src="./images/logo.jpg" alt="Logo" style="width:130px;height:50px;">
              </a>
 			<!--<marquee> <h6 style="color:cyan;">S3food-Tadipatri welcomes you</h6></marquee>-->
 		</nav>
