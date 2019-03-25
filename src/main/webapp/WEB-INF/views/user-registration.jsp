@@ -28,7 +28,7 @@
 	     
 
 
-</head>
+</head style="background-color: white;">
 <body ng-controller="userController">
 
 
