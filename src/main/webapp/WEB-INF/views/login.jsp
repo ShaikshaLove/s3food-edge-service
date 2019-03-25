@@ -32,7 +32,7 @@
 			 <a class="navbar-brand text-center" href="#">
                            <img src="./images/logo2.jpg" alt="Logo" style="width:180px;height:60px;">
                          </a>
-			<marquee> <small style="color:purple;"><strong>My interesting thing was end on 25/03/2019 at 12:03 am<strong></small></marquee> 
+			<marquee> <small style="color:purple;"><strong>S3food is underdevelopment. Thanks for visiting<strong></small></marquee> 
 	</header>
 
 	<nav  style="background-color: #1C1514;" class="navbar navbar-expand-sm  navbar-dark fixed-bottom">
