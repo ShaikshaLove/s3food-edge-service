@@ -32,7 +32,7 @@
 			 <a class="navbar-brand text-center" href="#">
                <img src="./images/logo5.jpg" alt="Logo" style="width:170px;height:60px;">
              </a>
-			<marquee> <h6 style="color:green;">The End Game on 25-03-2019 at 12:03 am</h6></marquee>
+			<marquee> <h6 style="color:red;">The End Game on 25-03-2019 at 12:03 am</h6></marquee>
 		</nav>
 	</header>
 
