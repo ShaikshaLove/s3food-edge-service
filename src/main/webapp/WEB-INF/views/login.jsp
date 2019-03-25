@@ -30,7 +30,7 @@
 			</a><img src="./images/run.gif" alt="Logo" style="width:60px;">-->
 			
 			 <a class="navbar-brand text-center" href="#">
-                           <img src="./images/logo.jpg" alt="Logo" style="width:180px;height:60px;">
+                           <img src="./images/logo2.jpg" alt="Logo" style="width:180px;height:60px;">
                          </a>
 			<marquee> <small style="color:purple;"><strong>My interesting thing was end on 25/03/2019 at 12:03 am<strong></small></marquee> 
 	</header>
