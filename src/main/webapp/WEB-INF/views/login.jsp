@@ -35,8 +35,8 @@
 			<marquee> <small style="color:purple;"><strong>S3food is underdevelopment. Thanks for visiting<strong></small></marquee> 
 	</header>
 
-	<nav  style="background-color: #1C1514;" class="navbar navbar-expand-sm  navbar-dark fixed-bottom">
-		<small class="text-light">@2019-S3food.in, Contrived  by shaiksha</small>
+	<nav  class="navbar navbar-expand-sm  navbar-dark bg-light fixed-bottom">
+		<small class="text-danger">@2019-S3food.in, Contrived  by shaiksha</small>
 	</nav>
 
 
