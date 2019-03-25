@@ -24,16 +24,15 @@
 
 
 	<header>
-		<nav style="background-color: #1C1514;" class="navbar navbar-expand-md  navbar-dark fixed-top">
-		<!--	<a class="navbar-brand" href="#"
+		<nav style="background-color: white;" class="navbar navbar-expand-md  navbar-dark fixed-top">
+		<!-- <nav style="background-color: #1C1514;"	<a class="navbar-brand" href="#"
 				style="font-style: inherit; font-family: Verdana, Geneva, Tahoma, sans-serif">S3food
 			</a><img src="./images/run.gif" alt="Logo" style="width:60px;">-->
 			
 			 <a class="navbar-brand text-center" href="#">
-               <img src="./images/logo5.jpg" alt="Logo" style="width:170px;height:60px;">
-             </a>
-			<marquee> <h6 style="color:red;">The End Game was on 25-03-2019 at 12:03 am</h6></marquee>
-		</nav>
+                           <img src="./images/logo.jpg" alt="Logo" style="width:180px;height:60px;">
+                         </a>
+			<marquee> <small style="color:purple;"><strong>My interesting thing was end on 25/03/2019 at 12:03 am<strong></small></marquee> 
 	</header>
 
 	<nav  style="background-color: #1C1514;" class="navbar navbar-expand-sm  navbar-dark fixed-bottom">
