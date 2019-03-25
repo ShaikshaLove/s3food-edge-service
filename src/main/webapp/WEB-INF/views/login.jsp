@@ -18,7 +18,7 @@
 	     rel="stylesheet" crossorigin="anonymous" />
 
 </head>
-<body style="background-color: white;">
+<body >
 
 
 
