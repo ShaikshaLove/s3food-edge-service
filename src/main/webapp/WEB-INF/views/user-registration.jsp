@@ -29,36 +29,26 @@
 
 
 </head>
-<body ng-controller="userController">
-
-
-
-
-
+<body style="background-color: white"  ng-controller="userController">
 	<header>
-		<nav  style="background-color: white;"  class="navbar navbar-expand-md navbar-dark fixed-top">
-		<!--	<a class="navbar-brand" href="#"
+		<nav  style="background-color:  black;"  class="navbar navbar-expand-md navbar-dark fixed-top">
+		<!--style="background-color: #1C1514;"	<a class="navbar-brand" href="#"
 				style="font-style: inherit; font-family: Verdana, Geneva, Tahoma, sans-serif">S3food
 			</a><img src="./images/run.gif" alt="Logo" style="width:60px;">-->
 			
 			 <a class="navbar-brand text-center" href="#">
-               <img src="./images/logo2.jpg" alt="Logo" style="width:130px;height:50px;">
+               <img src="./images/index_logo1.jpg" alt="Logo" style="width:150px;height:50px;">
              </a>
-			<!--<marquee> <h6 style="color:cyan;">S3food-Tadipatri welcomes you</h6></marquee>-->
+			<!--<marquee> <small style="color:purple;"><strong>My interesting thing was end on 25/03/2019 at 12:03 am<strong></small></marquee>--> 
+	
 		</nav>
 	</header>
+	<nav  style="background-color:black;"  class="navbar navbar-expand-sm  navbar-dark fixed-bottom">
+				<small class="text-muted"><strong>@2019-S3food.in, designed and built by shaiksha</strong></small>
 
-
-	<nav  style="background-color: #1C1514;"  class="navbar navbar-expand-sm  navbar-dark fixed-bottom">
-		<small class="text-light">@S3food.in, Contrived and
-			originated by shaiksha</small>
 	</nav>
 
-
-
-
-
-<div style="margin-top:25px" class="container">
+<div style="margin-top:50px;background-color: white;" class="container">
     
     <div style="margin-top:120px" ng-show="showMessage">
 	       <div class="alert alert-info >
@@ -71,8 +61,8 @@
 			</small>
 	 </div>
 
-		<form ng-hide="showMessage" class="form-signin">
-			<h4 class="form-signin-heading text-center text-muted">Sign Up</h4>
+		<form  ng-hide="showMessage" class="form-signin">
+			<h4 style="color:#2E8B57"class="form-signin-heading text-center">Sign Up</h4>
 			<p>
 				<label for="firstname" class="sr-only">First Name</label> <input
 					type="text" id="firstname" name="firstName" class="form-control"
@@ -108,10 +98,10 @@
 					
 			</p>
 			<button ng-show="flag" ng-click="reg();" class="btn btn-md
-			 btn-danger btn-block" type="submit">Register</button>
+			 btn-warning btn-block" type="submit">Register</button>
 			 
 			 
-			 <button ng-hide="flag" class="btn btn-warning btn-block" type="button" disabled>
+			 <button ng-hide="flag" class="btn btn-primary btn-block" type="button" disabled>
                <span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span>
                    We're registering you...
              </button>
@@ -125,12 +115,5 @@
 		
 		
 	</div>
-	
-	
-	
-	
-	
-	
-	
 </body>
 </html>
