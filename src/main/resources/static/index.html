@@ -82,6 +82,12 @@
 
 			<div class="collapse navbar-collapse" id="navbarCollapse">
 				<ul class="navbar-nav mr-auto">
+					
+					<li class="nav-item" >
+					  <a class="nav-link active"> <small class="text-success">{{navbar.user.firstName}}</small><small class="text-success">-{{navbar.user.roles[0]}}</small>
+					 </a>
+					</li>
+					
 					<li class="nav-item" ng-repeat="navlink in navbar.navLinks"><a
 						class="nav-link active" href="{{navlink.urlPattern}}"> <small>{{navlink.linkName}}</small>
 					</a></li>
