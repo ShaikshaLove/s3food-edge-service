@@ -32,7 +32,7 @@
 			 <a class="navbar-brand text-center" href="#">
                <img src="./images/index_logo1.jpg" alt="Logo" style="width:150px;height:50px;">
              </a>
-			<marquee> <h6 style="color:#FF00FF;"><strong>S3food is under development. Our service would be started soon.<strong></h6></marquee> 
+			<marquee> <h6 style="color:cyan;"><strong>S3food is under development. we are glad of you being here<strong></h6></marquee> 
 		</nav>      
 		
 	</header>
