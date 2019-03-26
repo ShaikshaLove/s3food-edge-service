@@ -64,12 +64,15 @@
 <body ng-controller="navController">
 
 	<header>
-		<nav 
-			class="navbar navbar-expand-md bg-success navbar-dark fixed-top ">
-			<a class="navbar-brand" href="#"
-				style="font-style: inherit; font-family: Verdana, Geneva, Tahoma, sans-serif"><h4>S3food<font
-				size="1.5px" color="orange"> {{navbar.user.firstName}}</font></h4>
-			</a>
+		<nav style="background-color:black"
+			class="navbar navbar-expand-md  navbar-dark fixed-top ">
+			<!-- <a class="navbar-brand" href="#"
+				style="font-style: inherit; font-family: Verdana, Geneva, Tahoma, sans-serif"><h4>
+				<font style="font-style: normal;font-weight: bold;color: pink">S3</font><font color="orange"><strong>food</strong></font><font size="1.5px" color="cyan">{{navbar.user.firstName}}</font></h4>
+			</a> -->
+			<a class="navbar-brand text-center" href="#">
+               <img src="./images/index_logo1.jpg" alt="Logo" style="width:150px;height:50px;">
+             </a>
 
 			<button class="navbar-toggler" type="button" data-toggle="collapse"
 				data-target="#navbarCollapse" aria-controls="navbarCollapse"
@@ -86,9 +89,9 @@
 			</div>
 		</nav>
 		<!-- Fixed footer -->
-		<nav style="background-color: #1C1514;"
+		<nav style="background-color: black;"
 			class="navbar navbar-dark fixed-bottom">
-			<small class="text-light"> @2019-S3food.in, Contrived by
+			<small class="text-muted"> @2019-S3food.in, designed and built by
 				shaiksha</small>
 		</nav>
 	</header>
