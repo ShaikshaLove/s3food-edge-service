@@ -18,7 +18,7 @@
 	     rel="stylesheet" crossorigin="anonymous" />
 
 </head>
-<body style="background-color: white">
+<body>
 
 
 
@@ -32,7 +32,7 @@
 			 <a class="navbar-brand text-center" href="#">
                <img src="./images/index_logo1.jpg" alt="Logo" style="width:150px;height:50px;">
              </a>
-			<marquee> <h6 style="color:cyan;"><strong>S3food is under development. we are glad of you being here<strong></h6></marquee> 
+			<marquee> <small style="color:white;"><strong>S3food is under development. we are glad of you being here<strong></small></marquee> 
 		</nav>      
 		
 	</header>
@@ -43,7 +43,7 @@
 
 <div style="margin-top: 100px" class="container">
 		<form class="form-signin" method="post" action="perform-login">
-			<h4 style="color:#008080"	 class="form-signin-heading text-center">Please Sign in</h4>
+			<h4 style="color:black"	 class="form-signin-heading text-center">Please Sign in</h4>
 			<p>
 				<label for="username" class="sr-only">Username</label> <input
 					type="text" id="username" name="username" class="form-control"
