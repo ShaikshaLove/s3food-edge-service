@@ -58,8 +58,7 @@
 			 btn-success btn-block" type="submit">Log
 				in</button>
 
-			<br> <small style="padding-top: 30px;">Would you like
-				creating an account? <a href="./user-registration">&nbsp;<strong
+			<br> <small style="padding-top: 30px;">Don't you have an account? <a href="./user-registration">&nbsp;<strong
 					class="text-danger">Click here</strong></a>
 			</small>
 			
