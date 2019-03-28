@@ -29,7 +29,7 @@
 
 
 </head>
-<body ng-controller="userController">
+<body class="jumbotron jumbotron-fluid" ng-controller="userController">
 	<header>
 		<nav  style="background-color:  black;"  class="navbar navbar-expand-md navbar-dark fixed-top">
 		<!--style="background-color: #1C1514;"	<a class="navbar-brand" href="#"
