@@ -48,7 +48,7 @@
 
 	</nav>
 
-<div style="margin-top:45px;background-color: white;" class="container">
+<div style="margin-top:45px;" class="container">
     
     <div style="margin-top:120px" ng-show="showMessage">
 	       <div class="alert alert-info >
