@@ -38,7 +38,7 @@
 	</header>
 
 	<nav  style="background-color: black;" class="navbar navbar-expand-sm  navbar-dark fixed-bottom">
-		<small class="text-muted"><strong>@S3food, designed and developed by shaiksha</strong></small>
+		<small class="text-muted"><strong>@2019-S3food, designed and developed by shaiksha</strong></small>
 	</nav>
 
 <div style="margin-top: 100px" class="container">
