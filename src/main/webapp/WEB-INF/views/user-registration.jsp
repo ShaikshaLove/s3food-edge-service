@@ -44,7 +44,7 @@
 		</nav>
 	</header>
 	<nav  style="background-color:black;"  class="navbar navbar-expand-sm  navbar-dark fixed-bottom">
-				<small class="text-muted"><strong>@2019-S3food.in, designed and built by shaiksha</strong></small>
+				<small class="text-muted"><strong>@S3food, designed and developed by shaiksha</strong></small>
 
 	</nav>
 
