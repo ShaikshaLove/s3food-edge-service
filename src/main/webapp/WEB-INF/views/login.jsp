@@ -24,7 +24,7 @@
 
 
 	<header>
-		<nav style="background-color: black;" class="navbar navbar-expand-md  navbar-dark fixed-top">
+		<nav style="background-color: orange;" class="navbar navbar-expand-md  navbar-dark fixed-top">
 		<!--	<a class="navbar-brand" href="#"
 				style="font-style: inherit; font-family: Verdana, Geneva, Tahoma, sans-serif">S3food
 			</a><img src="./images/run.gif" alt="Logo" style="width:60px;">-->
@@ -37,7 +37,7 @@
 		
 	</header>
 
-	<nav  style="background-color: black;" class="navbar navbar-expand-sm  navbar-dark fixed-bottom">
+	<nav  style="background-color: orange;" class="navbar navbar-expand-sm  navbar-dark fixed-bottom">
 		<small class="text-muted"><strong>@2019-S3food, designed and developed by shaiksha</strong></small>
 	</nav>
 
