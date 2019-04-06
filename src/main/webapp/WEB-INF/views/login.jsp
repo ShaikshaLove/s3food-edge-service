@@ -30,7 +30,7 @@
 			</a><img src="./images/run.gif" alt="Logo" style="width:60px;">-->
 			
 			 <a class="navbar-brand text-center" href="#">
-               <img src="./images/index_logo6.jpg" alt="Logo" style="width:180px;height:60px;">
+               <img src="./images/index_logo1.jpg" alt="Logo" style="width:180px;height:60px;">
              </a>
 			<marquee> <small style="color:cyan;">S3food is under development. we are glad of you being here</small></marquee> 
 		</nav>      
