@@ -30,20 +30,20 @@
 			</a><img src="./images/run.gif" alt="Logo" style="width:60px;">-->
 			
 			 <a class="navbar-brand text-center" href="#">
-               <img src="./images/index_logo1.jpg" alt="Logo" style="width:150px;height:50px;">
+               <img src="./images/index_logo6.jpg" alt="Logo" style="width:180px;height:60px;">
              </a>
-			<marquee> <strong style="color:green;">S3food is under development. we are glad of you being here</strong></marquee> 
+			<marquee> <small style="color:cyan;">S3food is under development. we are glad of you being here</small></marquee> 
 		</nav>      
 		
 	</header>
 
 	<nav  style="background-color:black;" class="navbar navbar-expand-sm  navbar-dark fixed-bottom">
-		<small class="text-light"><strong>Copyrights &copy; 2019 designed and developed by shaiksha</strong></small>
+		<small class="text-light">Copyrights &#169; 2019 Designed and Developed by shaiksha</small>
 	</nav>
 
 <div style="margin-top: 100px" class="container">
 		<form class="form-signin" method="post" action="perform-login">
-			<h4 style="color:red"	 class="form-signin-heading text-center">Please Sign in</h4>
+			<h5 style="color:red"	 class="form-signin-heading text-center">Please Sign in</h5>
 			<p>
 				<label for="username" class="sr-only">Username</label> <input
 					type="text" id="username" name="username" class="form-control"
