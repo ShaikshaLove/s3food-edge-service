@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html ng-app="foodapp">
+<head>
+<meta charset="ISO-8859-1">
+<title>S3food</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script
+	src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="./js/vendor/angular.js"></script>
+<script type="text/javascript" src="./js/vendor/angular-route.js"></script>
+<script type="text/javascript" src="./js/app/app.js"></script>
+
+<script type="text/javascript" src="./js/app/home/home.module.js"></script>
+<script type="text/javascript"
+	src="./js/app/home/service/home.service.js"></script>
+<script type="text/javascript"
+	src="./js/app/home/controller/home.controller.js"></script>
+
+
+
+<script type="text/javascript" src="./js/app/product/product.module.js"></script>
+<script type="text/javascript"
+	src="./js/app/product/service/product.service.js"></script>
+<script type="text/javascript"
+	src="./js/app/product/controller/product-list.controller.js"></script>
+<script type="text/javascript"
+	src="./js/app/product/controller/product-register.controller.js"></script>
+
+<script type="text/javascript"
+	src="./js/app/product/controller/product-manipulation.controller.js"></script>
+
+<script type="text/javascript"
+	src="./js/app/product/directives/formdata.js"></script>
+
+
+
+<script type="text/javascript" src="./js/app/navbar/navbar.module.js"></script>
+<script type="text/javascript"
+	src="./js/app/navbar/service/navbar.service.js"></script>
+<script type="text/javascript"
+	src="./js/app/navbar/controller/navbar.controller.js"></script>
+
+
+<script type="text/javascript" src="./js/app/user/user.module.js"></script>
+<script type="text/javascript"
+	src="./js/app/user/service/user.service.js"></script>
+<script type="text/javascript"
+	src="./js/app/user/controller/user-list.controller.js"></script>
+
+<link rel="sty lesheet" href="./css/album.css" />
+<link rel="stylesheet" href="./css/carousel.css" />
+<link rel="stylesheet" href="./css/loader.css" />
+
+
+</head>
+
+
+
+<body ng-controller="navController">
+
+	<header>
+	
+	
+		<nav ng-show="showNav" style="background-color: black"
+			class="navbar navbar-expand-md  navbar-dark fixed-top ">
+		<!-- 	<a class="navbar-brand" href="#"
+				style="font-style: inherit; font-family: Verdana, Geneva, Tahoma, sans-serif"><h4>
+				<font style="font-style: normal;font-weight: bold;color: pink">S3</font><font color="orange"><strong>food</strong></font><font size="1.5px" color="cyan">{{navbar.user.firstName}}</font></h4>
+			</a> -->
+			<a class="navbar-brand text-center" href="#"> <img
+				src="./images/index_logo1.jpg" alt="Logo"
+				style="width: 180px; height: 60px;">
+			</a>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse"
+				data-target="#navbarCollapse" aria-controls="navbarCollapse"
+				aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+
+
+
+			
+
+			<div class="collapse navbar-collapse" id="navbarCollapse">
+				<ul class="navbar-nav mr-auto">
+
+					<li class="nav-item"><a class="nav-link active"> <small
+							class="text-success">{{navbar.user.firstName}}</small><small
+							class="text-success">-{{navbar.user.roles[0]}}</small>
+					</a></li>
+					<li  style="padding-left: 20px;padding-right: 20px" class="nav-item" ng-repeat="navlink in navbar.navLinks"><a
+						class="nav-link active" href="{{navlink.urlPattern}}"> <small>{{navlink.linkName}}</small>
+					</a></li>
+				</ul>
+			</div>
+		</nav> 
+		
+<div ng-hide="showNav" style="background-color: black" class="row flex-nowrap fixed-top justify-content-between align-items-center">
+      <div class="col-4 pt-1">
+        <img src="./images/index_logo1.jpg" alt="Logo"
+				style="width: 180px; height: 60px;">
+      </div>
+      
+      <div class="col-4 d-flex justify-content-end align-items-center">
+       
+        <a class="btn btn-md btn-outline-success" href="/login">Log in</a>
+      </div>
+    </div>
+		
+<!-- <div style="background-color: black" class="fixed-top d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3  border-bottom shadow-sm">
+            <a class="my-0 mr-md-auto font-weight-normal"> <img
+				src="./images/index_logo1.jpg" alt="Logo"
+				style="width: 180px; height: 60px;">
+			</a>
+  <nav class="my-2 my-md-0 mr-md-3">
+  
+    <a class="p-2 text-dark" href="#">Features</a>
+    <a class="p-2 text-dark" href="#">Enterprise</a>
+    <a class="p-2 text-dark" href="#">Support</a>
+    <a class="p-2 text-dark" href="#">Pricing</a>
+      <a class="btn btn-outline-primary" href="#">Sign up</a>
+    
+  </nav>
+</div> -->
+		
+		
+		
+		<!-- Fixed footer -->
+		<nav style="background-color:  black"
+			class="mastfoot navbar navbar-dark fixed-bottom">
+			<small class="text-muted">Copyrights &#169; 2019 Designed and
+				Developed by <a href="https://www.facebook.com/shaiksha.sha.505">shaiksha</a></small>
+
+		</nav>
+	</header>
+
+
+
+	<div ng-view=""></div>
+</body>
+</html>

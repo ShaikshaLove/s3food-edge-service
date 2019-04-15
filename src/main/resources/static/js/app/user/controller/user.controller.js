@@ -1,0 +1,42 @@
+angular.module("UserApp").controller("userController",function($scope,userService){
+	$scope.user={};
+	$scope.flag=true;
+	$scope.error=false;
+	$scope.errors={};
+	$scope.message="";
+	$scope.showMessage=false;
+	$scope.fieldName="";
+	$scope.errMsg="";
+	$scope.reg=function(){
+		$scope.flag=false;
+		console.log($scope.user);
+		userService.register($scope.user).then(
+				function(response){
+					if(response.status===200){
+						$scope.errorsList=(response.data).errors;
+						
+						$scope.errorsList.forEach(
+								function(item){
+									$scope.errors[item.property]=item.message;
+								}					
+						);						
+						console.log($scope.errors);
+						$scope.error=true;
+						$scope.flag=true;
+					}else{
+					$scope.message=response.data;
+					$scope.showMessage=true;
+					console.log($scope.message);
+					$scope.flag=true;
+					$scope.user={};
+					}
+				},function(error){
+					$scope.message=error.data;
+					$scope.showMessage=false;
+                    console.log($scope.message);
+            		$scope.flag=true;
+            		$scope.user={};
+			}
+		);		
+	};	
+});

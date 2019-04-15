@@ -1,0 +1,199 @@
+<div style="padding-top: 50px" class="container"
+	style="margin-top: 50px">
+
+	
+	
+	
+		
+		
+<div class="row">
+    <div class="col-sm">
+    <h3 class="text-danger  font-weight-bold ">S3food
+		product Details</h3> 
+    </div>
+    
+     <div class="col-sm">
+    </div>
+    
+     <div class="col-sm">
+       <a href="/#/product-register" class="btn btn-info btn-block">Register a product</a>
+    </div>
+    
+   
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div ng-show="flag"
+		class="alert alert-danger text-center alert-dismissible">
+		<button type="button" class="close" data-dismiss="alert">&times;</button>
+		<strong>{{message}}</strong>
+	</div>
+
+
+	<table class="table table-bordered table-responsive">
+		<thead class="thead-dark">
+			<tr>
+				<!-- <th class="text-center text-light" scope="col">ProductId</th>-->
+				<th class="text-center text-light" scope="col">ProductName</th>
+				<th class="text-center text-light" scope="col">Image</th>
+				<th class="text-center text-light" scope="col">manufacturer</th>
+				<th class="text-center text-light" scope="col">MRP</th>
+				<th class="text-center text-light" scope="col">Current Price</th>
+				<th class="text-center text-light" scope="col">Quantity</th>
+				<th class="text-center text-light" scope="col">Description</th>
+				<th class="text-center text-light" scope="col">Created on</th>
+				<th class="text-center text-light" scope="col">Updated on</th>
+				<th class="text-center text-light" scope="col" colspan="2">Action</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr ng-repeat="product in products">
+				<!--  <td>{{product.productId}}</td>-->
+				<td>{{product.productName}}</td>
+				<td><img src="{{product.imageLocation}}" width="250px"
+					height="100px" background="#55595c" color="#eceeef"
+					class="card-img-top" text="Thumbnail" /></td>
+				<td>{{product.manufacturer}}</td>
+				<td>{{product.mrp}}</td>
+				<td>{{product.price}}</td>
+				<td>{{product.quantity}}</td>
+				<td>{{product.description}}</td>
+				<td>{{product.createdDate}}</td>
+				<td>{{product.lastModifiedDate}}</td>
+
+				<td>
+					<button ng-click="getProduct(product.productId);" type="button"
+						class="btn btn-sm btn-outline-primary" data-toggle="modal"
+						data-target="#exampleModalScrollable">Edit</button>
+				</td>
+				<td>
+					<button ng-click="delete(product.productId)" type="button"
+						class="btn btn-sm btn-outline-danger">Delete</button>
+				</td>
+			</tr>
+
+		</tbody>
+	</table>
+
+</div>
+
+
+<div class="modal fade" id="exampleModalScrollable" tabindex="-1"
+	role="dialog" aria-labelledby="exampleModalScrollableTitle"
+	aria-hidden="true">
+	<div class="modal-dialog modal-dialog-scrollable" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<h5 ng-hide="hide" class="modal-title text-center text-danger"
+					id="exampleModalScrollableTitle">Product Details Editor</h5>
+					
+					<div ng-show="hide" class="alert alert success">{{message}}</div>
+					
+				<button type="button" class="close" data-dismiss="modal"
+					aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+			</div>
+			<div class="modal-body">
+
+
+
+				<div class="row">
+					<div class="col-sm">
+						<div class="form-group">
+							<label>ProductId:</label> <input disabled class="form-control"
+								type="text" ng-model="product.productId" />
+						</div>
+					</div>
+					<div class="col-sm">
+						<div class="form-group">
+							<label>Product Name:</label> <input class="form-control"
+								type="text" ng-model="product.productName" />
+						</div>
+					</div>
+					<div class="col-sm">
+						<div class="form-group">
+							<label>Manufacturer:</label> <input class="form-control"
+								type="text" ng-model="product.manufacturer" />
+						</div>
+					</div>
+				</div>
+
+
+				<div class="row">
+					<div class="col-sm">
+						<div class="form-group">
+							<label>MRP:</label> <input class="form-control" type="text"
+								ng-model="product.mrp" />
+						</div>
+					</div>
+					<div class="col-sm">
+						<div class="form-group">
+							<label>Price:</label> <input class="form-control" type="text"
+								ng-model="product.price" />
+						</div>
+					</div>
+
+					<div class="col-sm">
+						<div class="form-group">
+							<label>Quantity:</label> <input class="form-control" type="text"
+								ng-model="product.quantity" />
+						</div>
+					</div>
+
+					<div class="col-sm">
+						<div class="form-group">
+							<label>Category:</label> <input class="form-control" type="text"
+								ng-model="product.category" />
+						</div>
+					</div>
+				</div>
+
+
+
+				<div class="row">
+					<div class="col-sm">
+						<div class="form-group">
+							<label>Description:</label>
+							<textarea class="form-control" ng-model="product.description"></textarea>
+						</div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm">
+						<div ng-hide="loader" class="form-group">
+							<input  class="btn btn-success btn-block" type="submit"
+								ng-click="update()" value="Update" />
+						</div>
+
+						<button ng-show="loader" class="btn btn-success btn-block" type="button" disabled>
+							<span class="spinner-grow spinner-grow-sm" role="status"
+								aria-hidden="true"></span> Updating the data...
+						</button>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</div>
+</div>
