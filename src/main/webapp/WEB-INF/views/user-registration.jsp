@@ -45,7 +45,7 @@
 	</header>
 
 	<nav  style="background-color:black;" class="navbar navbar-expand-sm  navbar-dark fixed-bottom">
-		<small class="text-muted">Copyrights &#169; 2019 Designed and Developed by <a href="https://www.facebook.com/shaiksha.sha.505">shaiksha</a></small>
+		<small class="text-muted">Copyrights&#169;2019 Designed and Developed by <a href="https://www.facebook.com/shaiksha.sha.505">SHAIKSHA</a></small>
 	</nav>
 
 	
@@ -58,7 +58,7 @@
       
       <div class="col-4 d-flex justify-content-end align-items-center">
        
-        <a class="btn btn-md btn-outline-success" href="./login">Log in</a>
+        <a class="btn btn-sm btn-outline-success" href="./login">Log in</a>
       </div>
     </div> 
 

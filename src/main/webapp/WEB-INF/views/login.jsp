@@ -43,14 +43,14 @@
       
       <div class="col-4 d-flex justify-content-end align-items-center">
        
-        <a class="btn btn-md btn-outline-danger" href="./user-registration">Sign Up</a>
+        <a class="btn btn-sm btn-outline-danger" href="./user-registration">Sign Up</a>
       </div>
     </div>  
 		
 	</header>
 
 	<nav  style="background-color:black;" class="navbar navbar-expand-sm  navbar-dark fixed-bottom">
-		<small class="text-muted">Copyrights &#169; 2019 Designed and Developed by <a href="https://www.facebook.com/shaiksha.sha.505">shaiksha</a></small>
+		<small class="text-muted">Copyrights&#169;2019 Designed and Developed by <a href="https://www.facebook.com/shaiksha.sha.505">SHAIKSHA</a></small>
 	</nav>
 
 <div style="margin-top: 100px" class="container">
