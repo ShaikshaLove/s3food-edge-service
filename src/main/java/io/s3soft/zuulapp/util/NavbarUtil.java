@@ -11,6 +11,8 @@ public class NavbarUtil {
 		al.add(new NavLink("Sell A Product", "/#/product-register"));
 		al.add(new NavLink("S3food Product Details", "/#/product-manipulation"));
 		al.add(new NavLink("S3food User Details", "/#/user-data"));
+		al.add(new NavLink("My Profile", "/#/my-profile"));
+
 		al.add(new NavLink("Logout", "/perform-logout"));
 		
 		return al;
@@ -25,7 +27,7 @@ public class NavbarUtil {
 		 * "/#/MyCart"));
 		 */
 		al.add(new NavLink("Snacks", "/#/products"));
-		al.add(new NavLink("My Profile", "/#/products"));
+		al.add(new NavLink("My Profile", "/#/my-profile"));
 		al.add(new NavLink("My Cart", "/#/MyCart"));
 		al.add(new NavLink("Logout", "/perform-logout"));
 		return al;

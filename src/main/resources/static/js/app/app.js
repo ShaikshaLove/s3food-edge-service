@@ -1,4 +1,4 @@
-angular.module("foodapp",["navBar","UserApp","ProductApp","HomeApp","ngRoute"]);
+angular.module("foodapp",["MyProfile","navBar","UserApp","ProductApp","HomeApp","ngRoute"]);
 
 /*angular.module("s3food").config(function($routeProvider){
 	console.log("from route  config")
@@ -64,6 +64,16 @@ angular.module("foodapp").config(function($httpProvider,$routeProvider){
 
 	}
 	);
+	
+	
+	$routeProvider.when("/my-profile",{
+
+		templateUrl:"js/app/myprofile/html/MyProfile.html",
+		controller:"MyProfileCtrl"
+
+	}
+	);
+
 
 	$routeProvider.otherwise(
 			{

@@ -49,9 +49,12 @@
 		
 	</header>
 
-	<nav  style="background-color:black;" class="navbar navbar-expand-sm  navbar-dark fixed-bottom">
-		<small class="text-muted">Copyrights&#169;2019 Designed and Developed by <a href="https://www.facebook.com/shaiksha.sha.505">SHAIKSHA</a></small>
-	</nav>
+	 <nav style="background-color:  black"
+			class="mastfoot navbar navbar-dark fixed-bottom">
+			<small class="text-muted">Copyrights&#169;2019 Designed and
+				Developed by <a class="text-danger" href="https://www.facebook.com/shaiksha.sha.505">Shaiksha</a></small>
+
+		</nav>
 
 <div style="margin-top: 100px" class="container">
 		<form class="form-signin" method="post" action="perform-login">

@@ -44,9 +44,12 @@
 		</nav>-->
 	</header>
 
-	<nav  style="background-color:black;" class="navbar navbar-expand-sm  navbar-dark fixed-bottom">
-		<small class="text-muted">Copyrights&#169;2019 Designed and Developed by <a href="https://www.facebook.com/shaiksha.sha.505">SHAIKSHA</a></small>
-	</nav>
+	 <nav style="background-color:  black"
+			class="mastfoot navbar navbar-dark fixed-bottom">
+			<small class="text-muted">Copyrights&#169;2019 Designed and
+				Developed by <a class="text-danger" href="https://www.facebook.com/shaiksha.sha.505">Shaiksha</a></small>
+
+		</nav>
 
 	
 	
@@ -62,7 +65,7 @@
       </div>
     </div> 
 
-<div style="margin-top:0px;" class="container">
+<div style="margin-top:10px;" class="container">
     
     <div style="margin-top:120px" ng-show="showMessage">
 	       <div class="alert alert-info >
